@@ -1,18 +1,27 @@
 # 🚗 Blurred Image Object Detection
 
-Image deblurring is a critical task in computer vision, especially for real-time systems like autonomous vehicles, surveillance cameras, medical imaging, and photography. These applications often face challenges due to motion blur, atmospheric interference, defocus, or optical distortions — caused by camera movement, object motion, or environmental conditions.
+Obtaining high-quality data is a critical challenge in computer vision—especially for real-time applications like autonomous driving, surveillance, medical diagnostics, and computational photography. These systems often operate under degraded visual conditions caused by motion blur, defocus, atmospheric interference, or optical distortions resulting from fast-moving objects, handheld cameras, or harsh environments.
 
-This project focuses on training object detection models that remain effective under such real-world blur conditions. A custom dataset of blurred images was manually annotated using Roboflow, and both YOLOv11 and YOLOv12 were benchmarked to evaluate detection performance in degraded visual scenarios.
+This project attempts to address that gap by training object detection models to perform reliably in blurred and noisy image conditions. We manually annotated a custom dataset using Roboflow and benchmarked YOLOv11 and YOLOv12 to assess their robustness in real-world scenarios where image degradation is unavoidable.
 
 ---
 
 ## 📁 Dataset Overview
-
+We have taken a portion of the GoPro dataset (link below) and annotated it by adding bounding boxes around common objects and/or people present in the images to create ground truth labels. 
+- **Original Dataset webpage**: [https://seungjunnah.github.io/Datasets/gopro](https://seungjunnah.github.io/Datasets/gopro)
 - **Size**: 1,000+ custom-annotated images
 - **Annotation Tool**: [Roboflow Annotate](https://roboflow.com/annotate)
+  
+## 📷 Sample Images from Dataset
+
+<p align="center">
+  <img src="README_images/bbox_ex1.png" alt="Blurred Sample 1" width="45%"/>
+  <img src="README_images/bbox_ex2.png" alt="Blurred Sample 2" width="45%"/>
+</p>
 
 
-🗂️ **Dataset available on Roboflow Universe** 
+🗂️ **Annotated dataset available on Roboflow Universe** 
+
 <a href="https://universe.roboflow.com/image-deblurring/image-deblurring-ol1wo-bpcfn">
     <img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img>
 </a>
