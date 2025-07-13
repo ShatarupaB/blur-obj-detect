@@ -12,12 +12,13 @@ We have taken a portion of the GoPro dataset (link below) and annotated it by ad
 - **Size**: 1,000+ custom-annotated images
 - **Annotation Tool**: [Roboflow Annotate](https://roboflow.com/annotate)
   
-## 📷 Sample Images from Dataset
+## 📷 Sample Images from Annotated Dataset
 
 <p align="center">
-  <img src="README_images/bbox_ex1.png" alt="Blurred Sample 1" width="45%"/>
-  <img src="README_images/bbox_ex2.png" alt="Blurred Sample 2" width="45%"/>
+  <img src="README_images/bbox_ex1.png" alt="Blurred Sample 1" width="40%"/>
+  <img src="README_images/bbox_ex2.png" alt="Blurred Sample 2" width="40%" />
 </p>
+
 
 
 🗂️ **Annotated dataset available on Roboflow Universe** 
