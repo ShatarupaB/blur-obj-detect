@@ -16,7 +16,6 @@ This project focuses on training object detection models that remain effective u
 <a href="https://universe.roboflow.com/image-deblurring/image-deblurring-ol1wo-bpcfn">
     <img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img>
 </a>
-👉 [https://universe.roboflow.com/image-deblurring/image-deblurring-ol1wo-bpcfn]
 
 ---
 
