@@ -41,6 +41,21 @@ We trained and evaluated two object detection models using the Ultralytics YOLO 
 - **YOLOv11** achieved higher recall and overall performance on blurred objects  
 - **YOLOv12** produced fewer false positives, with slightly better precision
 
+Below, we have displayed the validation curves for box loss, mAP@0.5, precision and recall (clockwise from top left in each image group) against the number of epochs for YOLOv11 and YOLOv12 models. 
+
+## 🧪 YOLOv11 vs YOLOv12 – Inference
+
+<p align="center">
+  <img src="README_images/blur-v11-sample-res.png" alt="YOLOv11 Validation curves" width="35%"/>
+  <img src="README_images/blur-v12-sample-res.png" alt="YOLOv12 Validation curves" width="35%"/>
+</p>
+
+<p align="center">
+  <em> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Left:YOLOv11 output – higher recall &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; Right: YOLOv12 output – cleaner bounding box</em>
+</p>
+
+
+
 ---
 
 ## 🛠 Tools & Libraries
