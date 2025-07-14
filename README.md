@@ -1,4 +1,4 @@
-# 🚗 Blurred Image Object Detection
+# 🚗 Object Detection for Blurred Images 
 
 Obtaining high-quality data is a critical challenge in computer vision—especially for real-time applications like autonomous driving, surveillance, medical diagnostics, and computational photography. These systems often operate under degraded visual conditions caused by motion blur, defocus, atmospheric interference, or optical distortions resulting from fast-moving objects, handheld cameras, or harsh environments.
 
